@@ -1,6 +1,7 @@
 package com.example.jts0340project3
 
 import android.os.Bundle
+import android.widget.Button
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -31,5 +32,12 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+        val btn1 = findViewById<Button>(R.id.button4)
+        val btn2 = findViewById<Button>(R.id.button5)
+        val btn3 = findViewById<Button>(R.id.button6)
+
+        btn1.setOnClickListener {
+
+        }
     }
 }
